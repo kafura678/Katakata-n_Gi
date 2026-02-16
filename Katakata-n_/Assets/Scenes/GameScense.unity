@@ -1111,7 +1111,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1542297064}
-  - {fileID: 1514058250}
   - {fileID: 729023278}
   - {fileID: 833878961}
   - {fileID: 602166984}
@@ -1119,6 +1118,7 @@ RectTransform:
   - {fileID: 356643737}
   - {fileID: 6440184}
   - {fileID: 278749427}
+  - {fileID: 1514058250}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1137,6 +1137,7 @@ GameObject:
   - component: {fileID: 1514058250}
   - component: {fileID: 1514058252}
   - component: {fileID: 1514058251}
+  - component: {fileID: 1514058253}
   m_Layer: 5
   m_Name: Image_Enemy
   m_TagString: Untagged
@@ -1175,7 +1176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: c39ba0e6860e745458249e89803bf02c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -1201,6 +1202,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514058249}
   m_CullTransparentMesh: 1
+--- !u!114 &1514058253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514058249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9302353d9b01a42e3ba74cac6eb9aaed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 356812160}
+  targetImage: {fileID: 1514058251}
+  blockCountX: 80
+  blockCountY: 45
+  blocksPerSecond: 180
 --- !u!1 &1542297063
 GameObject:
   m_ObjectHideFlags: 0
