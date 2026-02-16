@@ -272,8 +272,8 @@ MonoBehaviour:
   textTyped: {fileID: 6440185}
   textStatus: {fileID: 356643738}
   textTime: {fileID: 1485125591}
-  challengeListParent: {fileID: 0}
-  challengeButtonPrefab: {fileID: 0}
+  challengeListParent: {fileID: 1836326827}
+  challengeButtonPrefab: {fileID: 7491316412528533901, guid: 191ffcd8951f544e5b3b3b8dd7ed1411, type: 3}
   challengeSlots: 6
   gameTimeLimitSeconds: 180
   timeUpMessage: "\u6642\u9593\u5207\u308C"
